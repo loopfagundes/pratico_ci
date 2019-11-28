@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
 import appobjects.CustomerAppObject;
-import frameworks.UtilsFw;
+import frameworks.utils.WaitElementFw;
 
 public class CustomerTask {
 	private WebDriver driver;
@@ -59,7 +59,7 @@ public class CustomerTask {
 	}
 	
 	public void validarSucesso() {
-		UtilsFw.visibilityOf(driver, customerAppObject.getValidarLabel());
+		WaitElementFw.visibilityOf(driver, customerAppObject.getValidarLabel());
 		String expected = "Your data has been successfully stored into the database. Edit Customer or Go back to list";
         String actual = customerAppObject.getValidarLabel().getText();
         Assert.assertEquals(expected, actual);

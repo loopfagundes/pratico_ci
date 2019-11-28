@@ -1,7 +1,7 @@
-package frameworks;
+package frameworks.utils;
 
-import static frameworks.DriverManagerFactoryFw.quitDriver;
-import static frameworks.DriverManagerFactoryFw.setDriver;
+import static frameworks.utils.DriverManagerFactoryFw.quitDriver;
+import static frameworks.utils.DriverManagerFactoryFw.setDriver;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;

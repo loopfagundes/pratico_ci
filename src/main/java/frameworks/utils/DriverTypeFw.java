@@ -1,4 +1,4 @@
-package frameworks;
+package frameworks.utils;
 
 public enum DriverTypeFw {
     CHROME,

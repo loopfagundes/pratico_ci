@@ -3,7 +3,7 @@ package testcases;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
-import frameworks.BaseTestFw;
+import frameworks.utils.BaseTestFw;
 import tasks.CustomerTask;
 
 
